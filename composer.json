@@ -1,0 +1,30 @@
+{
+    "name": "xinningsu/laravel-easy-cache",
+    "description": "Easy way to cache a service method result as demand.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Su",
+            "email": "deng5765@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "laravel/framework": ">=5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=5.0",
+        "squizlabs/php_codesniffer": "^3.0",
+        "php-coveralls/php-coveralls": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sulao\\EasyCache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}

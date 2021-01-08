@@ -80,7 +80,7 @@ $topNews = $news->cache(300, 'cache-key', 'array')->getTopNews(2);
 
 # Global Configuration
 
-copy config/easy-cache.php of this package to config/easy-cache.php under laravel project, custom it on demand.
+If you want custom global config, copy config/easy-cache.php of this package to config/easy-cache.php under your laravel project.
 
 ```php
 return [

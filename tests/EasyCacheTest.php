@@ -9,7 +9,6 @@ use Illuminate\Foundation\Application;
 use Illuminate\Http\Request;
 use Sulao\EasyCache\CachePlug;
 
-
 class EasyCacheTest extends \PHPUnit\Framework\TestCase
 {
     public function testCachePlug()
@@ -87,7 +86,6 @@ class EasyCacheTest extends \PHPUnit\Framework\TestCase
         );
 
         $this->assertEquals(2, $news->offset);
-
     }
 
     public function testEasyCache()

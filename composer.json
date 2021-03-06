@@ -1,6 +1,12 @@
 {
     "name": "xinningsu/laravel-easy-cache",
     "description": "Easy way to cache the result of service method as demand.",
+    "keywords": [
+        "laravel",
+        "cache",
+        "easy cache"
+    ],
+    "homepage": "https://github.com/xinningsu/laravel-easy-cache",
     "license": "MIT",
     "authors": [
         {
